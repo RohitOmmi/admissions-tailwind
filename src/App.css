@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.line{
+    width: 40px;
+    border-bottom: 3px solid #007367;
+    margin-left: 5px;
+}
+.line1{
+    width: 40px;
+    border-bottom: 3px solid #f4e4c9;
+    margin-left: 5px;
+}
+.card-body{
+    background-color: #004740;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 2px solid #f4e4c9;
+}
+.card-footer{
+    background-color: #007367;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius: 15px;
+}
